@@ -32,7 +32,7 @@ s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.source       = { :git => "https://github.com/DongZhiChen/pod_test.git", :tag => "0.0.1" }
 
 
-  s.source_files  = "test", "test/*.{h,m}"
+  s.source_files  = "test", "test/*"
 #s.exclude_files = "Classes/Exclude"
    s.requires_arc = true
 
