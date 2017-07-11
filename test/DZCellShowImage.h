@@ -8,11 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DZCellShowImage : UICollectionViewCell  {
-
-    
-}
-
-
-
+@interface DZCellShowImage : UICollectionViewCell
 @end
