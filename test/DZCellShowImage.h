@@ -7,16 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIImageView+WebCache.h"
 
-@interface DZCellShowImage : UICollectionViewCell <UIScrollViewDelegate> {
+@interface DZCellShowImage : UICollectionViewCell  {
 
-    UIScrollView *SV_ImageContent;
     
 }
 
-@property (nonatomic, retain) UIImageView *imageView;
 
--(void)setZoomConfigure;
 
 @end

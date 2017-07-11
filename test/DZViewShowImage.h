@@ -7,12 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DZCellShowImage.h"
 
+@interface DZViewShowImage : UIView
 
-@interface DZViewShowImage : UIView <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
-
-@property (nonatomic, retain) UICollectionView *CV_ShowImage;
-@property (nonatomic,strong) NSArray *arrayPictures;
 
 @end
